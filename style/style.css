@@ -1,0 +1,331 @@
+* {
+    margin: 0;
+    padding: 0;
+    bottom: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body { 
+    font-family: 'Montserrat', sans-serif;
+}
+
+.conteiner  {
+    max-width: 1300px;
+    margin: 0 auto;
+} 
+
+a {
+    color: inherit;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+
+    padding: 50px 0 0 0;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+
+    width: fit-content;
+}
+
+.logo img {
+    width: 41.67px;
+    height: 50px;
+}
+
+.logo p {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+    gap: 40px;
+
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.logo p {
+    font-weight: 600;
+    font-size: 20px;
+    color: #232323;
+}
+
+.nav a {
+    color: #232323;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.nav a:hover {
+    color: #23232373;
+}
+
+.icons {
+    display: flex;
+    flex-direction: none;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+    gap: 24px;
+
+    color: #232323;
+    cursor: pointer;
+}
+
+.icons .fa-basket-shopping {
+    cursor: pointer;
+}
+
+.icons .fa-user {
+    cursor: pointer;
+}
+.icons .fa-heart {
+    cursor: pointer;
+}
+
+.banner {
+    margin-top: 40px;
+}
+
+.banner img {
+    width: 100%;
+    height: 100%;
+
+    position: relative;
+}
+
+.banner-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+    gap: 60px;
+
+    position: absolute;
+    top: 52px;
+    bottom: 0;
+    left: 263px;
+    right: 264px;
+
+    text-align: center;
+}
+
+.banner-content h1 {
+    font-weight: 600;
+    font-size: 58px;
+    color: #232323;
+}
+
+.banner-content h3 {
+    font-weight: 600;
+    font-size: 20px;
+    color: #f9f9f9;
+}
+
+.banner-content button{
+    border: none;
+    outline: none;
+    padding: 16px 66px;
+    border-radius: 4px;
+
+    font-weight: 600;
+    font-size: 16px;
+    color: #232323;
+    background-color: #f9f9f9;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.banner-content button:hover {
+    background-color: #f9f9f9d7;
+}
+
+.banner-content .fa-chevron-down {
+    color: #f9f9f9;
+    font-size: 36px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+
+.banner-content .fa-chevron-down:hover {
+    color: #f9f9f9c0;
+}
+
+.catalog {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.catalog h2 {
+    margin: 136px 0 96px 0;
+    font-weight: 600;
+    font-size: 36px;
+    color: #232323;
+    margin-right: auto;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+
+    gap: 24px;
+}
+
+.cards .carts {
+    position: relative;
+    background-color: #edecec;
+    padding: 40px 90px;
+    border-radius: 8px;
+}
+
+.cards .fa-heart {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: auto;
+    right: 0;
+
+    padding: 30px;
+
+    font-size: 18px;
+    color: #989898;
+    transition: all 0.3 ease-in-out;
+    cursor: pointer;
+}
+
+.carts .fa-heart:hover {
+    color: red;
+}
+
+.carts img {
+    width: 100%;
+    height: 100%;
+}
+
+.carts .carts-content {
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+
+    margin-top: 46px;
+}
+
+.carts .cart-content h4 {
+    font-weight: 500;
+    font-size: 18px;
+    color: #232323;
+}
+
+.carts .cart-content h4 {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.cards .carts-content button{
+    border: none;
+    outline: none;
+    background-color: #232323;
+    color: #f9f9f9;
+    padding: 17px 65px;
+    border-radius: 4px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.cards .carts-content button:hover {
+    background-color: #232323de;
+}
+
+.catalog .catalog-button {
+    border: none;
+    outline: none;
+    background-color: #232323;
+    color: #f9f9f9;
+    padding: 17px 65px;
+    border-radius: 4px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+
+    margin-top: 90px;
+}
+
+.catalog button:hover {
+    background-color: #232323de;
+}
+.popular h2 {
+    margin: 136px 0 96px 0;
+    font-weight: 600;
+    font-size: 36px;
+    color: #232323;
+    margin-right: auto;
+}
+.logo-p {
+    display: flex;
+    gap: 128px;
+    margin-bottom: 136px;
+}
+.form {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background: url("../image/background.png") no-repeat;
+}
+.form h2 {
+    padding-top: 48px;
+    margin: 0px 0 96px 0;
+    font-weight: 600;
+    font-size: 36px;
+    color: #f9f9f9;
+    margin-right: auto;
+}
+.button_box {
+    display: flex;
+    gap: 130px;
+    justify-content: center;
+}
+.form button{
+    border: none;
+    outline: none;
+    padding: 17px 155px;
+    border-radius: 4px;
+    background-color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    color: #232323;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer; 
+}
+.form p {
+    font-weight: 300;
+    font-size: 12px;
+    color: #fff;
+    margin-left: 460px;
+    padding-bottom: 13px;
+}
+
