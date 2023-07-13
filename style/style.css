@@ -292,9 +292,10 @@ a {
 }
 .form {
     width: 100%;
-    height: 100%;
+    height: 291px;
     text-align: center;
     background: url("../image/background.png") no-repeat;
+    margin-bottom: 137px;
 }
 .form h2 {
     padding-top: 48px;
@@ -324,8 +325,459 @@ a {
 .form p {
     font-weight: 300;
     font-size: 12px;
-    color: #fff;
+    color: #f9f9f9;
     margin-left: 460px;
+    margin-top: 15px;
     padding-bottom: 13px;
 }
+footer {
+    height: 355px;
+    color: #EDECEC;
 
+    display: flex;
+    gap: 136px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+footer p {
+    font-weight: 500;
+    font-size: 14px;
+    color: #232323;
+}
+footer h3 {
+    color: #232323;
+    font-weight: 700;
+    font-size: 16px;
+}
+.logo, .navigate, .help, .contact {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+} 
+.adress {
+    text-align: left;
+}
+/* 768px */
+@media(max-width:768px) {
+    .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+
+    padding: 25px 25px 0 25px;
+    }   
+
+.banner-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+    gap: 20px;
+
+    position: absolute;
+    top: 52px;
+    bottom: 0;
+    left: 263px;
+    right: 264px;
+
+    text-align: center;
+}
+.banner-content h1 {
+    font-weight: 600;
+    font-size: 18px;
+    color: #232323;
+}
+.banner-content h3 {
+    font-weight: 400;
+    font-size: 16px;
+    color: #f9f9f9;
+}
+.catalog {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 0 50px;
+}
+.carts .cart:last-child {
+    display: none;
+} 
+.partners .logo-p img:nth-last-child(2) {
+    width: 96px;
+    height: 96px;
+    display: none;
+}
+.partners .logo-p img:nth-last-child(1) {
+    width: 96px;
+    height: 96px;
+    display: none;
+}
+.partners .logo-p img:nth-last-child(3) {
+    width: 96px;
+    height: 96px;
+    display: none;
+}
+.partners {
+    padding: 0 50px;
+}
+}
+/* 1024px */
+@media(max-width:1024px) {
+    .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+
+    padding: 50px 50px 0 050px;
+    }   
+
+.banner-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+    gap: 40px;
+
+    position: absolute;
+    top: 52px;
+    bottom: 0;
+    left: 263px;
+    right: 264px;
+
+    text-align: center;
+}
+.banner-content h1 {
+    font-weight: 600;
+    font-size: 48px;
+    color: #232323;
+}
+.banner-content h3 {
+    font-weight: 400;
+    font-size: 16px;
+    color: #f9f9f9;
+}
+.catalog {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 0 50px;
+}
+.carts .cart:last-child {
+    display: none;
+} 
+.partners .logo-p img:nth-last-child(2) {
+    width: 96px;
+    height: 96px;
+    display: none;
+}
+.partners .logo-p img:nth-last-child(1) {
+    width: 96px;
+    height: 96px;
+    display: none;
+}
+.partners .logo-p img:nth-last-child(3) {
+    width: 96px;
+    height: 96px;
+    display: none;
+}
+.partners {
+    padding: 0 50px;
+}
+}
+/*375px */
+@media(max-width:375px) {
+    .header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        align-content: center;
+
+        gap: 24px;
+    
+        padding: 50px 50px;
+    }
+    .nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        text-align: center;
+    
+        gap: 14px;
+    
+        font-weight: 400;
+        font-size: 16px;
+    }
+    .icons {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    
+        gap: 24px;
+    
+        color: #232323;
+        cursor: pointer;
+    }
+    .banner img {
+        width: 100vw;
+        height: 300px;
+    
+    }
+    .banner-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    
+        gap: 30px;
+    
+        position: absolute;
+        top: 22px;
+        bottom: 0;
+        left: 50px;
+        right: 50px;
+    
+        text-align: center;
+    }
+    .banner-content h1 {
+        font-weight: 600;
+        font-size: 20px;
+        color: #232323;
+    }
+    
+    .banner-content h3 {
+        font-weight: 600;
+        font-size: 12px;
+        color: #f9f9f9;
+    }
+    .banner-content button{
+        border: none;
+        outline: none;
+        padding: 10px 36px;
+        border-radius: 2px;
+    
+        font-weight: 600;
+        font-size: 14px;
+        color: #232323;
+        background-color: #f9f9f9;
+        transition: all 0.3s ease-in-out;
+        cursor: pointer;
+    }
+    .banner-content .fa-chevron-down {
+        color: #f9f9f9;
+        font-size: 18px;
+        transition: all 0.3s ease-in-out;
+        cursor: pointer;
+    }
+    .catalog h2 {
+        margin: 50px auto 20px auto;
+        font-weight: 600;
+        font-size: 24px;
+        color: #232323;
+        margin-right: auto;
+    }
+    .cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        align-content: center;
+    
+        gap: 8px;
+    }
+    
+    .cards .carts {
+        position: relative;
+        background-color: #edecec;
+        padding: 20px 40px;
+        border-radius: 8px;
+    }
+    .cards .fa-heart {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: auto;
+        right: 0;
+    
+        padding: 30px;
+    
+        font-size: 14px;
+        color: #989898;
+        transition: all 0.3 ease-in-out;
+        cursor: pointer;
+    }
+    .carts .carts-content {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+    
+        margin-top: 26px;
+    }
+    .carts .cart-content h4 {
+        font-weight: 500;
+        font-size: 12px;
+        color: #232323;
+    }
+    .carts .cart-content h4 {
+        font-weight: 700;
+        font-size: 8px;
+    }
+    .cards .carts-content button{
+        border: none;
+        outline: none;
+        background-color: #232323;
+        color: #f9f9f9;
+        padding: 10px 15px;
+        border-radius: 4px;
+        transition: all 0.3s ease-in-out;
+        cursor: pointer;
+    }
+    .catalog .catalog-button {
+        border: none;
+        outline: none;
+        background-color: #232323;
+        color: #f9f9f9;
+        padding: 10px 35px;
+        border-radius: 4px;
+        transition: all 0.3s ease-in-out;
+        cursor: pointer;
+    
+        margin-top: 25px;
+    }
+    .popular h2 {
+        margin: 50px auto 20px auto;
+        font-weight: 600;
+        font-size: 24px;
+        color: #232323;
+        margin-right: auto;
+    }
+    .logo-p {
+        display: flex;
+        gap: 50px;
+        margin-bottom: 50px;
+    }
+    .partners .logo-p img:nth-last-child(2) {
+        width: 48px;
+        height: 48px;
+        display: none;
+    }
+    .partners .logo-p img:nth-last-child(1) {
+        width: 48px;
+        height: 48px;
+        display: none;
+    }
+    .partners .logo-p img:nth-last-child(3) {
+        width: 48px;
+        height: 48px;
+        display: none;
+    }
+    .partners .logo-p img:nth-last-child(4) {
+        width: 48px;
+        height: 48px;
+        display: none;
+    }
+    .partners .logo-p img:nth-last-child(5) {
+        width: 48px;
+        height: 48px;
+    }
+    .partners .logo-p img:nth-last-child(6) {
+        width: 48px;
+        height: 48px;
+    }
+    .partners .logo-p img:nth-last-child(7) {
+        width: 48px;
+        height: 48px;
+    }
+    .partners .logo-p img:nth-last-child(8) {
+        width: 48px;
+        height: 48px;
+    }
+    /* .popular .fa-chevron-down:nth-last-child(4) {
+        display: none;
+    } */
+    .form {
+        width: 100vw;
+        height: 300px;
+        text-align: center;
+        background: url("../image/background.png") no-repeat;
+        margin-bottom: 50px;
+        border-radius: 5px;
+    }
+    .form h2 {
+        padding-top: 28px;
+        margin: 0px 0 46px 0;
+        font-weight: 600;
+        font-size: 24px;
+        color: #f9f9f9;
+        margin-right: auto;
+    }
+    .button_box {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+    }
+    .form button{
+        border: none;
+        outline: none;
+        padding: 10px 10px;
+        border-radius: 4px;
+        background-color: #fff;
+        font-weight: 600;
+        font-size: 12px;
+        color: #232323;
+        transition: all 0.3s ease-in-out;
+        cursor: pointer; 
+    }
+    .form p {
+        font-weight: 300;
+        font-size: 6px;
+        color: #f9f9f9;
+        margin-left: 195px;
+        margin-top: 10px;
+        padding-bottom: 13px;
+    }
+    footer {
+        color: #EDECEC;
+    
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+    footer p {
+        font-weight: 500;
+        font-size: 10px;
+        color: #232323;
+    }
+    footer h3 {
+        color: #232323;
+        font-weight: 700;
+        font-size: 12px;
+    }
+    .logo, .navigate, .help, .contact {
+        display: flex;
+        /* flex-direction: column; */
+        gap: 8px;
+    } 
+    .adress {
+        text-align: left;
+    }
+}
